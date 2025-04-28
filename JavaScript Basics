@@ -23,4 +23,20 @@
     when we print this code, at earth engine we will see the word list appear in the console, along with a small arrows (>) next to ir.
     and we must know that each item in the list has its own index number, when the index starts at 0 not 1
 3.  Objects
-    
+    while lists allow us to store multiple values inside one variable, they are not ideal when we want to so to store structured data 
+    to creatte an object:
+      - curly braces {}.
+      - write each-ky value pair inside the brace, with the format 'key': value
+      - separate each pair with a comma,
+4.  Function
+    A function is a structured block of code designed to recive input (called parameters), perform a series of operations based on that input, and return the outpit
+    define a function:
+      - use the keyword function
+      - spsify the function name and parameter(s) inside parentheses ()
+      - write the operations inside curly braces {}
+      - use the return keyword to specify what value the function should output
+5.  Comments
+    comments in programming are lines of text written within the code to explain, give notes, or remind about what a specific part of the program does
+    to create comments in java script:
+      - use two forward shlashes // at the beginning of a line
+      - Anything after // on that line becomes a comment
