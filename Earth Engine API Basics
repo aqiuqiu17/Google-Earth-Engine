@@ -1,0 +1,16 @@
+The Earth Engine API is a large collection of objects and methods that allow you to perform a wide range of operations — from simple mathematical calculations to complex image processing algorithms.
+In the Code Editor, you can click on the Docs tab to see a list of the API functions, organized by object type. All API functions have the prefix ee (short for Earth Engine)
+
+However, in Earth Engine, you should not add numbers directly using JavaScript operators like a + b.
+Instead, you must use Earth Engine's built-in API functions.
+This is important to ensure your code runs efficiently and avoids errors like timeouts.
+To add a and b:
+Convert a into an Earth Engine object using ee.Number(a).
+Then, use the .add(b) method to add b to a.
+
+Why Use API Functions?
+Because Earth Engine uses a cloud computing system.
+If you perform operations directly in JavaScript (like a + b), the results might be incorrect or the execution could fail.
+Always use API functions to ensure that your operations are properly executed on the Earth Engine server.
+Another Example: Creating a List of Years
+Suppose you want to create a list of years from 1980 to 2020, with a 5-year interval.
