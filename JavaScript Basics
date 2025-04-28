@@ -1,0 +1,25 @@
+
+
+
+
+1. Variables
+   In programming, a variable is like a container that stores information of data. In JavaScript,
+   we create a variable using the keyword var, followd by name we want to give the variable
+   Example:
+                                  var province = 'Jawa Barat';
+   This means that we are creating a container called city, and we are storing to the text 'bandung' inside that container.
+
+   A few importtant notes:
+      - when we are storing text (string), we must surround it with quotation marks, we can use single (') or double (")
+      - normaly, each command (or line of code) ends wiwth a semicolon (;)
+      - when we print the variable, the value stored inside it will appear in the console.
+      - wgen we assign a text value to a variable, the variable is automatically given the type string.
+      - when we assign a number, the variables becomes a type called number.
+2.  Lists
+    sometimes, we need to store multiple value inside a single variable.
+    To do This, JavaScript provides a data structure call a list ( also known as an array). A list can hold many values together in one place
+    To create a list we use square brackets [] and we add multiple values inside, separated by commas (,)
+                                var provinces = ['Jawa Barat', 'Jawa Tengah', Jawa Timur']
+    when we print this code, at earth engine we will see the word list appear in the console, along with a small arrows (>) next to ir.
+    and we must know that each item in the list has its own index number, when the index starts at 0 not 1
+3.  
