@@ -22,4 +22,5 @@
                                 var provinces = ['Jawa Barat', 'Jawa Tengah', Jawa Timur']
     when we print this code, at earth engine we will see the word list appear in the console, along with a small arrows (>) next to ir.
     and we must know that each item in the list has its own index number, when the index starts at 0 not 1
-3.  
+3.  Objects
+    
